@@ -40,7 +40,7 @@ class ComboBoxDemo extends JFrame implements ItemListener {
 		String s1[] = { "Albany", "Schenectady", "Troy", "Glens Falls", "Catskill" };
 
 		// create checkbox
-        cBox1 = new JComboBox(s1);
+        cBox1 = new JComboBox<String>(s1);
 		
 		// add ItemListener
 		cBox1.addItemListener(s);
